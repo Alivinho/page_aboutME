@@ -5,16 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOBRE MIM</title>
-    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="Css/page.css">
 </head>
 <body>
     <div class="box1">
-        <h1>OLÁ, EU SOU ALISSON LÍVIO</h1>
-        <p>Tenho 17 anos, sou da Zona Rural da cidade de Candiba-BA</p>
         <div class="imgPerfil">
-            <img src="img/imPerfil.jpg" alt="Imagem de Perfil" width="100px" height="100px">
+            <img src="img/imPerfil.jpg" alt="Imagem de Perfil" width="100px" height="100px" id="imgP">
+        </div>
+        <h1>OLÁ, EU SOU ALISSON LÍVIO</h1>
+        <p>Tenho 17 anos, sou da Zona Rural da cidade de Candiba-BA. Sou estudante de Informatica do If Baiano - Campus Guanambi
+        </p>
+        <div class="contacts">
+            <a href="https://www.instagram.com/alisson_lrc/">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAD80lEQVRoQ+2ZSeyNVxiHWRWNEEFF1YKqoUKLBULE0EgUIWnaVSM2WqKDWglRRNONqVRIJYSuitAKJa20RUpjKCqIKV0YQg3VxrzheZL7JX+f+0333u9e/+Se5Mn9hjO8v3POd8573tu0SSNPTRu5/U3qAmo9gvURaGwj0BqD34Px8Dp0gBfKFPGQ8lfhJGyD7+B22jrTTiHzfQxzoQ2cgT/gGjxO21hEPut+CQZCd7gJC2BFmrrTCGhORRvgHdgBc+BYmUZHFX+DF1/AGNgMk+BeXFtJAny/CSbAjEKv5GT7U9V+wt1i2Arvxo1EkoBPKbwUrHB5NSxv0IZtLgOnrtOpaIoT4Ad7AZzrb1fZ+KC5nVwMgFfhv2I2xAn4kAKr4E3Ia84HNvXh4hLcChnZj/sj8AF8k1XAjxToAj1y7v3Z1L8QXNF6wr+h9s5yL2OzCvibAr/B5JwFbKH+iYU2+vL7V6i99dwPLXTmM6bETaEH5PYDnlWiANf2ToWyTg97uFiy1106D8GXRTL4zBWwWdYRcIOaD/MyCLCRaYVR6x0qd4L7teB35e6bNtn+51C0s+NGIKsAXYvvwRVjT+H6fMFKn7mXDINzhetTKRVURYDG/w534H34NcK4ETz/Fl6EwZBGRO4CnDZOD12OQXAxoWdf4b17i2JdPpOmU+4C/MCWgL0b1fNhTaN48DO403+VIDh3Afb+DRieYEj49V4etAKXzriUqwCXSn15R0G/JUv6jMw6bNbxT0zBXAXop7h+u0vqamdJ48jsAcY6dBeiUq4C+tPqYdCY7VmsJ6+nuh9Af+dorQRUYgq1x/jrtRJgu/ouOmBuUlnSPjK3BE9hcSnXKWTDwTI6kutfUip4i3w/wXOxjBqVcCl1d/VgnrSRdSaPG9n/4BJa843MTu8F++EueBDfHTES9rzusbu2rsTpFCOW+xQKbFCEh/DXwPmtY6fjZvKZztwQMCSj/5/GeMtWTYCNOZ2mgocg/ZyG6Tg360B3+lHoXdxtyQLKPdC0wyodN5PfRdxSGSeg5ANNtY6USYNR8pFS16Ar5H2oTxLggd7vxt3+mRR3IjOUsRqStvokA8p5H7gqU6hkTVYBBrY8Eh4EY5W1SLtoVBElBbY0OAjvpdkxKy0wCGt+RMVfR1WeFBttGNydSSVJp6dKidD4RWDMyP8jIkP4SQI0qAW4Ehhed0iNpP1ZKUtD9ThdjBGNBqPi7ur349pKI8Dy5psO/sHRFtxhD8BlKBp0zSDQY+XLYECgG3g8NR61Mq7ng/rTCgjy25hD6pJmKKUjVOIvpivUE/zFtDFLp2QVkKFjq5O1LqA6/RzdSn0E6iNQZg88AQdC3zEDjmKPAAAAAElFTkSuQmCC" alt="Logo do instagram">
+            </a>
+            <a href="https://twitter.com/alivio_rc">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAFDUlEQVRoQ+2YaahVVRSAn5oaDZo22PCjB+JQGDRSWBYa0YAaZhaZ1rN5Lisrh4wmLakcKjEteRYNVqRBkzZQURTNM9GkDTSYBRWaBQ3fF+fIfbd77t1n3+t9PLgLPs4d9t5nr73XXmvt1ampg0unDj7/poYC7b2DjR1o7ECVK9AeJrQtcz4c9oZesA6+hMfh47z6VFKgGwP+mXfQjPbb8ft0OAO6JxNfy3NL8D/lBbgQ3i0YY2c+Xwqnw3hYXjh+OQUOpuEKOAXur1KJPZMX78TzroS3eP6TjLsjz+NgCrgr58DfcCSMBBX+CwbA56EKvE7DfcEdOAqejVSiL/1eBU1lFLxdZpye/PcIDEvafM1TBidKn1bcN2sHdqPhR8mKnMDTSbhC2mkecfzXYFc4AL4I6OxqjwHNqCtoBVvALYliS3guTMfJUuAkGthwIPycTHwvnhfB7QGTSJuo9FI4Ee7L0c+mx8C9sHlBP01uNCyrpMC5NLgNdoAfYSvwHAyHR8GDuCZgQo/RRrvtD6m9B3T7r8mZMBa0hD3gQJgFlxcOkLUDx9LooaTjB0kH214AN8IGuB7mwR8ZM+rM79r9fLgkdNYl2l3BbzPgSfBAe5g3SpYC+9DiDTgeHiwa1BW9CdwNd+EOuBO+KmrXh+/fw9mwIFIBF+syuAc8wP9z6VkKdKHxatBjqHUpOYQfJ8IIcLV1i67Sm/AOaDKrQHNbFKnAJ8k8DHwlTbBcHLiGTvplXZieJEua+UOTOxr2Bz1HoTjOVZEKuAAGt5as/lkK7EKHk0H7+xY8QD8FTEKP4YEbBEbQ7eFucHdi5Ac6PQw6lZKSpcB5tL61oIc5yhFgzlIv2YwX/Q4zwRQklwLarYezFVz9fqDHMU+plxj8VoM5kE4ilwJDaf0ceHhWgvHgV9B91kvMg54AncWLeRUwQ/wOtD+TufaQabz0atgGfsurgO3nwlmwH7zXDho8wztNs81kM6WcG+1NL6Ow0dRt1BvVS0xd9HpzoE3qUDyBShcaV9+VUAk9k0lU3pwmRmldeCscBC/H7kDabzEfJiRfTIdNqY0P62NmFtjnedp5+TEbLrtglXbAFMFrn7ekVMx/vOh40dgU4q4b+b1G3lzpBZUUsP9sOB/MeYyoRsdNKabrmk4zZHqfdAIhCugJjMTfwJCQQavQ7jD6Gncmww0h44Qo4DgOrO2/D6bYn4UMnrONsccddk7mU1n3jDbDhipgJ6PyA2DC1greE1TIM1ILMV1ogUPBDDRI8ijggJY/jI7jwIu28il4ZaxGzLH0+dfBlXkGyquAY7vVXi19mds8FTzosdJCR2tFllM0T+tBwRKqgKvtZcVrpLmR+YnJnqmGOxArk+jotfFp8OYXZPeFLytWwNU4FUzkDCCmE15KrBOlZUYTPO8KFqtixXGt7Vgisdrhe6NKmMUKWIGzHpTWKr2T6kI/BFNaw3pF31xGK+/aRvVrweCo+Vmwik5PSpmQ5qEf1s4d2PzHqoDb3KakkWP5LRma31jztKrxEhgcvfxXJeXOQDMjXwyWFt0RzeopsOoglv688pUS78O7g9U83a+R1ZLhK2BJxgNbEwk5xFYZNC1L207Eek8q3tBU4hfQe7h7W0NhZUJFVdwYUvWKF2sdokBxHysWFr6sPPQA3aoH3ADn+RCLXJ6dWga6kjsWo0BNtr5WgzQUqNVKxo7T2IHYlatVv8YO1GolY8f5F1By7zE/o7DWAAAAAElFTkSuQmCC" alt="Logo do twitter">
+            </a>
+            <a href="https://github.com/Alivinho">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAIX0lEQVRoQ73Zd7AlRRUGcHIWcImKwENldcmgKCJQi7WgGEgCAkLVghSSLKEIAhLWJSmFlAKCsqB/WEpYgiJJUECgKLIkyWEByaAoCijx+72a3pqdnXvffW/ffafqq5k709Pdp/v0Od85d+65Rk/Gpav1g08GHw8+GCxadf/fXP8ZPBI8FNxa/Z7j0eeewx5MdNfgq8E6wTw99vdO2t0VXBr8Onisx+9mazZSBTZPT4cGE4PSx5u5vyW4v1rll3J9vRrRTiwTjA9WDz4TLFS9ey/Xa4MTgj8NV5HhKmCVfxZsWA30Wq4XBL8Nbgwo0YuY/MbBzsHXgw9UH+ljv+DuXjrRplcF5k/b44IDgvmCF4KTgzMCSsyJLJ6P96n6XjbXt6u+j8j1raE67kWBldLJ+cFnq85PzfXoUZh4c24UmRrsWy3SzbnuEDzdTYmhFFgjH/8x+HAwI9gxYOf9lM+l83MDC/f34EvB3zoN2E0B9n5NwB06ZGyVKxwL4ZIvDCYG/wi+ELSei04KfCwfOFDLBxcHOwX/C7Q/MmCr3N9o7cYG6Ys7fj44plohB/2cYOvguWCj4PHm6rUpwOUJNKsFVwVfC/5ffbh3rqfXOuHHeY0nmx33+Hsg7Xi1L9fa75n7adXvBXK9LJgU3Bc4h8U1DzZpU+BXeT45YHdW5j9VZ9o+Eawc2BW2uXDw7+AbwZXBKgH3+Ilg6Qo+f7nCg7neEMwITJqtc6FvBFcE2wZWmQUU8d6BtqBnB3vU3s2mwBZ5eXkg9As2glKR9XJzRyBqrhqsEPy0GpTrs/0fqXfe5d7hZJ5csjiyf8BMUI2PBs5f3eY5E+a6SPDFgGUMSn0H2Jxtov2BAT9fF+dAwPpNsEvte/HhsOq3Q+7A3xuIxJQiJisSrxlsGnAM5Pjg+7VB9G8cO8p11+Xg/DgxeDhYK3AmZ1GA/z0tMLjVtqp1YZu/CNin+7rwEkzNDuE53WTevPxUsFjAy9WFiewefCv4ZeOdYIo/MaW9qrnMVMBL28e+2SEbbwqbZ6e2zzb2Q65Opw4sruW+KdvlwfTAWcSr3i4mtE1+XBSwefaGYDWFfYuKto4JOHijKRwCE1wwMNYzLZ1ju8x8QrBVcElRwIrzt7jOTzrMivvkRp8KaD9og6MoJs6+RWCulXtuE+fzpECg244CTrZoxzZ5lhdbvtoyz34f8MGbBGy9H+JscLN2Q44hBjTlQ3nAi4lN4yiwWcCuBS+Boim2jUtjWtwd19lPYQU84D3BusG7LYPdnmeUnUQBoRt1/VEgSWlKiQ0CDNsrUblfSoi+Ap6gaGwBsincKbc6lQJsiefBNM9raYzzc1soNLo7FjKlGq/TWZAIiUfTKcDvMw++/68tsyvvRebbxmL2GYMpow/MaO2WMZkPM7qHArIr7BJEz6a8kgfoLW7jfixE1OZMjGfcpojsqMfzFMB7eCIsdBamV30lz+XiUI3Rdp2dFsNY4ozxSvJfb2u+5v06BVAGLhSxaqMBgpfAIkqLAWMhCB3SiKYPtAxovub9DgXQYZRVTtqWoOMrCJiMTLQeC9k+gyBz6ARa0RRz/Ze5U6CsMLc1o6Xx9/Lsh0GdhfZbCXkCRtrGio1ddugpClwfSEKs8nUtMxvIMyGeYIKP9nn2SpM8nwCm8tdWlcB+/xz8hQJnBeirwIBjtAlqu1sgqHyl6rwfeoj6xsAOfh7gXm1ySB4KvNMoUHi+TMzk2mS5POSTuVqR+6h+zD59SnAkR1wk/9/m1g2N1qP3e1AAPUCjHWD+vpnIlLkK65cEvBUlROY22j0S3cxDbdR5M77JMZE2kbsgnxKi8YVOK3mjyJKJTh/qTLqnnMKNqUgwvTb2OhwlFM1ketinUqIx0JtOYo68E740oShQCN3v8lByQ5iJSrLt1Biddq+aQAm7JQHBHE8JuOPhiKRITfSgYMmAuagNqQR2E3OUzOBlRxcFBKlSo7cTmKeVFdKL8Ap/CDBWUdKk5QlEBKegZzhMJxFBrbTvTIIZEP0ijM92+dYrBQcekely+0/XqxJyTTmnxP47wUDw7YBd1tuh06pzPNbEgEfgNXgQwcVqdhJ5h7bEgjBXuy+J6UWwU7uGNWPPs0wMI5W46FhBq2RdVtwB81y5UUZG3CsyOT++5bs7cZcyuVI28UeG8zMcavLptC+7qzzzQFMBv/leq6584f8uHsHqszvbrrgkKtsl6SelKIpw6fSm4PNlti3XUlWgQNmJLs1nvuL50GeuVW6uBDQoddPw28FSUpR3Tgl+ULXz/M5gIDB5GRxFJgeFLSpicbWU7yRsWCRXcei1iqcvLtt8fMexMNVBaSrgGTfFE3inAmfbiSQD7ZDyHR4wqyWqDvlmyU4bHS9juWr/aqAIVv5Wqr9vu/9mHvJ6Dq65qfzNlDYFvFTuOzZwYLnNEhswUgdIHEC4HHaF217FeMzOZHr5R5OZiTf1RZtlrE4KaFQ4kggtB9URsSLelQSHaUkuCG8yVN5cone3sfWlrG/3udozA2dzNunWiVVWB0XirJpdQaBMwIF1j6trV0Q7B64bxRhKAXPCh7hXu6Reiq+1lVeG/JdSBwiWWECE+O8GpewnX/VfgEJUqWX6ZqQKONilZK8PjsLCdexvqG0sK4ufKK84hMzFAf5xUP9fuAwyEgUsgORFzJGb8zJMpq3MU+Y0eO1VAW3RDaSrVKYFIZFRruAgj0QBVEU5nV9fsZqZfMDkewpyw1GgaO5w8VD+ZCCCnby55K697gBaIbNyZoj4Ib601UPL2LNdR6KATnwnaDlcrtwc6eUQq3wUF8pNS6TsrNgz7PxipArUV2Kp/GBWcuoZgb+cuokgKNd16O3CHBXL3gdpoNgUbj57fgAAAABJRU5ErkJggg==" alt="Logo do Github">
+            </a>
+        </div>
+        <div class="box2">
+            <h1 id="h1P">Sobre Mim</h1>
+            <p id="P2">Sou uma pessoa bem tímida e introvertida, o que por sua vez dificulta a construção de relacionamentos interpessoais.
+                Logo, acabei me acostumando a ficar sozinho e a presar pelo silêncio, o que me fer ser um idivíduo bem observador e atento ao meu redor 
+                Não tenho muitos <i>hobbies</i>, se tivesse que citar algo seria que sou um <i>otaku</i>, ou seja, gosto muito de assistir animes e ler mangás. 
+                Fora isso, também gosto de assistir séries e ler um livro nas horas vagas. Como já disse me considero uma pessoa sonhadora, contudo, não é pra tanto,
+                no momento busco simplesmente uma vida que me satisfaça. 
+            </p>
+            <a href="mailto:alissoncostalivio@gmail.com"">
+                <button class="Contato"><strong>CONTATO</strong></button>
+            </a>
+           
         </div>
     </div>
+    <footer><p id="P3">&copy  <i>Lívio - 2023</i> </p></footer>
+    
+    
    
 </body>
 </html>
