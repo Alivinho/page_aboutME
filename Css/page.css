@@ -1,15 +1,21 @@
+body{
+    background: white;
+}
+
 .box1{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     flex-direction: column;
-    margin-left: 25vh;
+    margin-left: 50vh;
     margin-top: 50vh;
     margin-bottom: 65vh;
     width: 45vh;
-    height: 80vh;
+    height: 70vh;
     border-style: none;
-    background: lightseagreen;
+    background:  #518cf3;
 }
+
 
 h1{
     text-align: center;
@@ -18,11 +24,67 @@ h1{
     color: white;
 }
 
-.imgPerfil{
-    display: flex;
-    margin-top: -35vh;
+p{
+    font-size: 15   px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
-img{
+.imgPerfil{
+    display: flex;
+    margin-top: -10vh;
+}
+
+#imgP{
     border-radius: 50%;
+}
+
+.contacts{
+    display: flex;
+    margin-top: 10vh;
+    gap: .8rem;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vh;
+    width: 50vh;
+    height: 80vh;
+
+}
+
+#h1P{
+    color: black;
+    text-align: left;
+}
+
+#P2{
+    color: black;
+    text-align: justify;
+}
+
+button{
+    color: black;
+    padding: 0 40px;
+    line-height: 25px;
+    border: solid;
+    border-radius: 10px;
+    border-color: #518cf3;
+    font-size: 12px;
+    text-align: center;
+    background-color: white;
+}
+
+.Contato:hover{
+    background-color: #518cf3;
+}
+
+#P3{
+    color: black;
+}
+
+footer{
+    margin-bottom: auto;
 }
